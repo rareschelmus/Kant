@@ -1,0 +1,15 @@
+Programus Rex
+alfa
+
+	zal #a,#b,#suma;
+	lexikon #t 
+	
+	read~#t;
+	read~(#a,#b);
+	#suma=#a+#b;
+	
+	daca(#suma>9)
+		print(#t);
+	ori
+		print("Care este sensul vietii?");
+omega
